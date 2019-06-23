@@ -8,7 +8,6 @@
 }
 
 .home-shadow {
-    /* position: absolute; */
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.15);
@@ -19,24 +18,22 @@
     flex-direction: column;
     height: 100%;
     justify-content: space-evenly; 
+    color: #FFFFFF;
     font-style: normal;
     font-weight: bold;
-    color: #FFFFFF;
-    /* padding: 5%; */
 }
 
 .home-text {
-    width: 80%;
-    font-size: 18px;
-    line-height: 21px;
+    width: 70%;
     padding: 5%;
+    font-size: 16px;
+    line-height: 21px;
 }
 
 .home-text h1 {
-    font-size: 36px;
-    line-height: 42px;
-    padding-top: 15%;
     padding-bottom: 20%;
+    font-size: 30px;
+    line-height: 36px;
 }
 
 .home-text h2 {
@@ -46,37 +43,34 @@
 .btn {
     width: 165px;
     height: 42px;
-    margin-bottom: 20%;
     border: 3px solid #FFFFFF;
     background: none;
     color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19px;
     cursor: pointer;
     text-decoration: none;
 }
 
-.btn a {
-    font-size: 18px;
-    line-height: 21px;
-    color: #FFFFFF;
-    text-decoration: none;
-} 
 
-.btn:hover {
-    background: white;
-    transition-duration: 1s;
-    transition-timing-function: linear;
-}
-
-.btn:hover a {
-    color: black;
-    transition-duration: 1s;
-    transition-timing-function: linear;
-} 
 
 @media (min-width: 768px) {
-    #home {
-        /* height: 100vh; */
+    .home-text {
+        width: 65%;
+        padding: 0%;
+        font-size: 17px;
     }
+
+    .home-text h1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .btn {
+        font-size: 17px;
+        line-height: 20px;
+    } 
+
   }
 
   @media (min-width: 996px) {
@@ -86,25 +80,25 @@
 
     .home-text {
         width: 60%;
-        /* font-size: 18px;
+        font-size: 18px;
         line-height: 21px;
-        padding: 5%; */
     }
-/* 
-    .home-container {
-        /* position: relative; */
-        /* position: absolute; */
-        /* padding-top: 10%;
-    } */
-     
-    /* h1 {
+
+    .home-text h1 {
         font-size: 36px;
         line-height: 42px;
-        margin-bottom: 70px;
     }
+
+    .btn {
+        font-size: 18px;
+        line-height: 21px;
+        }
     
-    h2 {
-        margin-bottom: 70px;
+
+    .btn:hover {
+        background: white;
+        color: black;
+        transition-duration: 1s;
+        transition-timing-function: linear;
     }
-     */
   }

@@ -2,13 +2,12 @@
 nav {
     position: relative;
     display: flex;
-    /* width: 100vw; */
     width: 100%;
     height: 50px;
-    background: #4E4E4E;
     justify-content: space-between;
     vertical-align: middle;
     align-items: center;
+    background: #4E4E4E;
 }
 
 .nav-container {
@@ -16,13 +15,12 @@ nav {
     justify-content: space-between;
     vertical-align: middle;
     padding: 5%;
-    /* color: #FFFFFF; */
 }
 
 nav a {
+    color: #FFFFFF;
     font-size: 18px;
     line-height: 21px;
-    color: #FFFFFF;
     text-decoration: none;
 } 
 
@@ -45,13 +43,13 @@ ul {
 }
 
 nav li {
+    display: inline;
+    padding: 5px;
     text-align: center;
     font-weight: normal;
     font-style: normal;
-    padding: 5px;
     text-decoration: none;
     list-style-type: none;
-    display: inline;
 }
 
 nav li:last-of-type a {
@@ -59,37 +57,16 @@ nav li:last-of-type a {
 }
 
 @media (min-width: 768px) {
-    /* nav {
-        position: relative;
-        display: flex; */
-        /* width: 100vw; */
-        /* width: 100%;
-        height: 50px;
-        background: #4E4E4E;
-        justify-content: space-between;
-        vertical-align: middle;
-        align-items: center;
-    }
     
+    .nav-container {
+        padding: 0%;
+    }
+
     .nav-container {
         display: flex;
         justify-content: space-between;
-        vertical-align: middle;
-        
-    } */
-    
-    /* nav a {
-        font-size: 18px;
-        line-height: 21px;
-        color: #FFFFFF;
-        text-decoration: none;
+        vertical-align: middle;  
     } 
-    
-    .name {
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 21px;
-    } */
     
     .bars {
         display: none;
@@ -102,29 +79,11 @@ nav li:last-of-type a {
 
 
 @media (min-width: 996px) {
-    
-    /* nav {
-        position: relative;
-        display: flex; */
-        /* width: 100vw; */
-        /* width: 100%;
-        height: 50px;
-        background: #4E4E4E;
-        justify-content: space-between;
-        vertical-align: middle;
-        align-items: center;
-    }
-    
-    .nav-container {
-        display: flex;
-        justify-content: space-between;
-        vertical-align: middle;
-    }
-    
+
     nav a {
+        color: #FFFFFF;
         font-size: 18px;
         line-height: 21px;
-        color: #FFFFFF;
         text-decoration: none;
     } 
     
@@ -133,7 +92,5 @@ nav li:last-of-type a {
         font-size: 18px;
         line-height: 21px;
     }
-     */
-
 }
 
