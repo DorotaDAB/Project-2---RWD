@@ -24,20 +24,20 @@
 }
 
 .home-text {
-    width: 70%;
+    width: 90%;
     padding: 5%;
     font-size: 16px;
     line-height: 21px;
 }
 
 .home-text h1 {
-    padding-bottom: 20%;
+    padding-bottom: 10%;
     font-size: 30px;
     line-height: 36px;
 }
 
 .home-text h2 {
-    margin-bottom: 20%;
+    padding-bottom: 10%;
 }
 
 .btn {
@@ -52,7 +52,12 @@
     text-decoration: none;
 }
 
-
+.btn a {
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+} 
 
 @media (min-width: 768px) {
     .home-text {
@@ -71,9 +76,13 @@
         line-height: 20px;
     } 
 
-  }
+    .btn a {
+        font-size: 16px;
+        line-height: 19px;
+    } 
+}
 
-  @media (min-width: 996px) {
+@media (min-width: 996px) {
     #home {
         height: 100vh;
     }
@@ -92,13 +101,16 @@
     .btn {
         font-size: 18px;
         line-height: 21px;
-        }
-    
-
-    .btn:hover {
-        background: white;
-        color: black;
         transition-duration: 1s;
         transition-timing-function: linear;
     }
-  }
+    
+    .btn:hover {
+        background: white;
+        color: black;
+    }
+
+    .btn:hover a {
+        color: black;
+   } 
+}

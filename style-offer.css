@@ -14,7 +14,6 @@
 .offer-container {
     height: 100%;
     padding-bottom: 5%;
-    margin-bottom: 5%;
 }
 
 .offer-header {
@@ -28,13 +27,11 @@
 
 .box-container {
     display: grid;
-    grid-template-columns: 55%;
+    grid-template-columns: 80%;
     grid-template-rows: auto;
     align-items: center;
     justify-content: center;
-    grid-row-gap: 1%;
-    margin-bottom: 5%;
-    padding-bottom: 5%;
+    grid-row-gap: 20px;
   }
 
   .box-container > div {
@@ -92,10 +89,8 @@
         grid-row-gap: 40px;
         width: 80%;
         margin: auto;
-        padding-top: 10%;
     }
 }
-  
   
 @media (min-width: 996px) {
    
@@ -104,9 +99,12 @@
         line-height: 42px;
     }
    
-    .box-content:hover {
-        transform: scale(1.05);
+    .box-content {
         transition-duration: 0.5s;
         transition-timing-function: linear;
+    }
+
+    .box-content:hover {
+        transform: scale(1.05);
     } 
 }
